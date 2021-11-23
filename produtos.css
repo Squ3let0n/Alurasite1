@@ -1,0 +1,113 @@
+header{
+    background: #bbbbbb;
+    padding: 15px 0;
+}
+
+.caixa{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top:120px;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin-left:15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color:yellow;
+    /*text-decoration: underline faz com que tenha uma linha em baixo dos links*/
+    text-decoration: underline;
+} 
+
+.produtos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    /*boxsizin border box faz com que as listas não desçam mais e fiquem sempre uma do lado da outra 
+    mesmo se o percentual passar de 100%*/
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 2%;
+}
+
+/*Hover serve somente para qunado o mouse estiver em cima*/
+.produtos li:hover{
+    border-color: rgb(185, 21, 226);
+}
+
+.produtos li:hover h2{
+    font-size: 34px;
+}
+
+/*active quando clicamos no negocio*/
+.produtos li:active{
+    border-color: rgb(167, 49, 49);
+}
+
+.produtos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produto-descricao{
+    font-size:18px;
+}
+
+.preço{
+    font-size:22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer{
+    text-align: center;
+    background: url(img/bg.jpg);
+    padding: 40px 0;
+}
+
+.copyrigth{
+    color:white;
+    font-size:13px;
+    margin-top: 20px;
+}
+
+.contatos{
+    color:white;
+}
+
+.whatsapp a:hover{
+    color:aqua;
+}
+
+.whatsapp a:active{
+    color:red;
+}
+
+.whatsapp a{
+    text-decoration: none;
+    color:white;
+}
